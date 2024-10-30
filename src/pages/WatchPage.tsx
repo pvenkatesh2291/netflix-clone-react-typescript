@@ -2,6 +2,7 @@ import { useState, useRef, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import Player from "video.js/dist/types/player";
 import { Box, Stack, Typography } from "@mui/material";
+import SliderUnstyled from '@mui/base/SliderUnstyled';
 import { SliderUnstyledOwnProps } from "@mui/base/SliderUnstyled";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PauseIcon from "@mui/icons-material/Pause";
